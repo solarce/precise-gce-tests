@@ -4,3 +4,4 @@ language: php
 
 script:
   - curl http://repo.varnish-cache.org/debian/GPG-key.txt | sudo apt-key add -
+  - true
