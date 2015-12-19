@@ -3,7 +3,10 @@ dist: precise
 group: edge
 language: python
 
+addons:
+  hosts:
+    - travis.local
+
 script:
   - ls -lahtr /etc/hosts
-  - sudo sh -c  "echo '127.0.0.1 localhost  precise64 nettuno travis vagrant travisci.local' > /etc/hosts"
   - cat /etc/hosts
