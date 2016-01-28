@@ -1,12 +1,5 @@
 sudo: required
 dist: precise
-group: stable
-language: python
-
-addons:
-  hosts:
-    - travis.local
 
 script:
-  - ls -lahtr /etc/hosts
-  - cat /etc/hosts
+ - true
