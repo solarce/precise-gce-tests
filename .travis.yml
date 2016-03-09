@@ -7,3 +7,4 @@ script:
  - uname -a
  - cat /etc/issue
  - true
+ - echo "hi josh"
